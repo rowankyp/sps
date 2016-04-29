@@ -1,5 +1,6 @@
 
-\documentclass[12px]{article}
+\documentclass[a4paper,12px,twocolumn]{article}
+
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
@@ -13,9 +14,11 @@
 
 The Fourier transform is used to assess geometric characteristics of a particular spatial
 image domain. An image's representation in the Fourier domain is a representation the number
-of basis sine and cosine functions of varying frequencies which are present in the image.
-
-\smallskip
+of basis sine and cosine functions of varying frequencies which are present in the image. Because
+the image in the Fourier domain is decomposed into into its sinusouidal components, it is easy to
+examine the frequencies of the image, and hence influencing the geometric structure in the spatial
+domain. This report explains my process of classification of text based of features of the
+image extracted from the Fourier domain.
 
 \section{Approach to analysis in the Fourier domain}
 
@@ -24,31 +27,41 @@ To start with, I superimposed the magnitude spectrums of the training data to pr
 three graphs which illustrate the geometric characteristics of the letters in the Fourier
 space.
 
+\begin{figure}[h!]
+  \caption{Fourier transform of T characters}
+  \includegraphics[scale=0.25]{fourierT}
+\end{figure}
 
-\includegraphics[scale=0.25]{fourierT}
+\begin{figure}[h!]
+  \caption{Fourier transform of S characters}
+  \includegraphics[scale=0.25]{fourierS}
+\end{figure}
 
-\includegraphics[scale=0.25]{fourierS}
+\begin{figure}[h!]
+  \caption{Fourier transform of V characters}
+  \includegraphics[scale=0.25]{fourierV}
+\end{figure}
 
-\includegraphics[scale=0.25]{fourierV}
 
+
+
+\smallskip
 \newpage
 
+Considering the three Fourier images
+\begin{itemize}
+    \item Figure 1 shows the average fourier space for the character T, from the image we
+    can observe that the power spectrum has high magnitude along the vertical bar passing through the centre,
+    this corresponds to the line which forms the top of character T. Similarly, there is another high magnitude bar passing horizontally
+    through the centre, corresponding to the vertical part of the character T
 
-I observed the resulting Fourier spaces of the letters and concluded that:
+    \item Figure 2 shows the average fourier space for the character S, the power spectrum for S shows only small magnitudes for directions
+    in exclusively the horizontal or vertical direction, this corresponds to the fact that a regular character S does not change in only
+    the vertical or horizontal directions. As seen, the highest magnitudes lie relatively evenly distributed within the central diamond
+    region, illustrative of change in both the horizontal and vertical directions, at varying angles.
 
-\smallskip
+\end{itemize}
 
-For character T: the power spectrum has high intensity along vertical bar passing through the center, this corresponds to the horizontal
-line which forms the top of the character T, similarly there is a high intensity horizontal band passing through the centre of the image,
-this corresponds to the vertical line of the character T.
-
-\smallskip
-
-For character S: the power spectrum for S shows only a small magnitude for directions purely horizontal or vertical, which corresponds
-to the fact that S has little or no change exclusively in the horizontal or vertical directions. As seen, the highest intensities lie
-relatively evenly distributed within the central diamond region - indicating change in both directions.
-
-\smallskip
 
 For character V: the power spectrum shows two distinct bands in the lines $ y = x$ and $y = -x$, these
 correspond to the two diagonal lines which form the letter V
@@ -81,15 +94,46 @@ correspond to the two diagonal lines which form the letter V
 
 
 \section{Results of Fourier Domain analysis and analysis of the classifier}
-    Using the features mentioned in the previous section, I computed the power spectrum in the regions selected
-    by the areas for each letter, this resulted in the graph listed below. In this graph the power spectrum values
-    computed from the box in the upper left quadrant are plotted on the x-axis, and the central band is plotted on the y-axis
-
-    \includegraphics[scale=0.25]{clusters}
-
-    lorem ipsum
-
+    Using the features mentioned in the previous section, I computed the sum of the power spectrum in the regions selected
+    by the features for each letter.Then, I applied the nearest neighbour procedure with $k=1$ and uniform weighting to the list of
+    values produced by the feature extraction, the result is shown in fig.4.
     \includegraphics[scale=0.25]{decision}
+
+
+
+    The training data produced three regions which correspond to the letters T, V and S. The clustering seems relatively good, except for
+    one of the S points. Observing fig * we can see that one S value is far closer to the V decision boundary than the rest. I reasoned that
+    the culprit would be an S which had more diagonal information in it than the others, the increased intensity in the $y = -x$ line in the fourier
+    space would cause it to increasingly resemble a V. One by one I removed datapoints from the dataset and plotted the resulting nearest neighbour
+    classification, I found that the culprit was \textbf{S7}.
+    *picture of S7 vs superimposed images of others*
+
+    \bigskip
+
+    To test my classifier, I created 10 new images for each character. The graph below shows the resulting classification for the points. Observing the graph
+    we can see that all input Ts have been classified correctly, each T also lies relatively far way from the decision boundary between T and S. Considering
+    the next character, Ss have all also been classified correctly for my test data, some of the near the decision boundary for Ss and Ts, this corresponds
+    to the more horizontal tops and bottoms of some of the test Ss. my classifier classifier also correctly identified all test V characters, however
+    one of test Vs was very close to the decision boundary between S and V, this is a consequence of that particular V being extremly curved.
+
+    \includegraphics[scale=0.25]{testpoints}
+
+    \bigskip
+
+    Next, I wanted to see how the classifier would cope with extreme cases for some test characters. I created the following
+        \includegraphics[scale=0.1]{tS11}
+        \includegraphics[scale=0.1]{tS12}
+        \includegraphics[scale=0.1]{tS13}
+        \includegraphics[scale=0.1]{tv11}
+        \includegraphics[scale=0.1]{tv12}
+        \includegraphics[scale=0.1]{tv13}
+        \includegraphics[scale=0.1]{tT11}
+        \includegraphics[scale=0.1]{tT12}
+        \includegraphics[scale=0.1]{tT13}
+
+        \includegraphics[scale=0.25]{extremechars}
+
+
 
 % \section{Analysis of the classifier}
 
