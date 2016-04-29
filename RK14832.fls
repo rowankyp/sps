@@ -119,6 +119,15 @@ INPUT ./images/tT12.png
 INPUT ./images/extremechars.png
 INPUT ./images/extremechars.png
 INPUT ./images/extremechars.png
+INPUT ./images/AB.png
+INPUT ./images/AB.png
+INPUT ./images/AB.png
+INPUT ./images/A.png
+INPUT ./images/A.png
+INPUT ./images/A.png
+INPUT ./images/B.png
+INPUT ./images/B.png
+INPUT ./images/B.png
 INPUT RK14832.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
