@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1461961878 "RK14832.tex" "RK14832.pdf" "RK14832" 1461961881
+["pdflatex"] 1461968694 "RK14832.tex" "RK14832.pdf" "RK14832" 1461968697
   "./images/A.png" 1461960831 392718 71f9578bc366ca5b2cafa9e5b451b033 ""
   "./images/AB.png" 1461960273 21236 dc263f540e197a8b6b57d3d470d734e3 ""
   "./images/B.png" 1461960836 361377 eb0b905d8cb5ee89e85915362f06de30 ""
-  "./images/decision.png" 1461939080 13174 5599f57d6a42188af6ed2746784c37ba ""
+  "./images/decision.png" 1461966719 20627 556f7cd76ed5f5058a375d9d8069baba ""
   "./images/extremechars.png" 1461960600 23715 92d4a74ce6efe93a74dad2ff09c7e9d0 ""
   "./images/fourierS.png" 1461951610 439414 ee2aee799c2640986b3d6930dc8a7127 ""
   "./images/fourierT.png" 1461951603 430080 8196616668b03d02a32f06dfb88cae5d ""
@@ -63,12 +63,12 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1444041275 3849859 18894d803df11ad2230d303abe55a9d8 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "RK14832.aux" 1461961881 1453 b0f200208fa52af21fcb93664b0a4ba9 ""
-  "RK14832.tex" 1461961878 11457 e15382047a24002dc23592e3f0cab78b ""
+  "RK14832.aux" 1461968697 1487 afe465af15f4a56f7b4d170ee73f689f ""
+  "RK14832.tex" 1461968694 13085 c2a7fe6261ad0c953846d0ae8d3aec94 ""
   "images/A.png" 1461960831 392718 71f9578bc366ca5b2cafa9e5b451b033 ""
   "images/AB.png" 1461960273 21236 dc263f540e197a8b6b57d3d470d734e3 ""
   "images/B.png" 1461960836 361377 eb0b905d8cb5ee89e85915362f06de30 ""
-  "images/decision.png" 1461939080 13174 5599f57d6a42188af6ed2746784c37ba ""
+  "images/decision.png" 1461966719 20627 556f7cd76ed5f5058a375d9d8069baba ""
   "images/extremechars.png" 1461960600 23715 92d4a74ce6efe93a74dad2ff09c7e9d0 ""
   "images/fourierS.png" 1461951610 439414 ee2aee799c2640986b3d6930dc8a7127 ""
   "images/fourierT.png" 1461951603 430080 8196616668b03d02a32f06dfb88cae5d ""
@@ -84,6 +84,6 @@
   "images/tv12.png" 1461942463 877 6e272488fd4180a5ff08cac9aa0d8a20 ""
   "images/tv13.png" 1461942490 954 acf63657fcc96f9f202778848143073d ""
   (generated)
+  "RK14832.pdf"
   "RK14832.aux"
   "RK14832.log"
-  "RK14832.pdf"
