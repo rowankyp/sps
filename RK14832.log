@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  29 APR 2016 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  29 APR 2016 19:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,6 +23,25 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip43
+\RaggedLeftLeftskip=\skip44
+\RaggedRightLeftskip=\skip45
+\CenteringRightskip=\skip46
+\RaggedLeftRightskip=\skip47
+\RaggedRightRightskip=\skip48
+\CenteringParfillskip=\skip49
+\RaggedLeftParfillskip=\skip50
+\RaggedRightParfillskip=\skip51
+\JustifyingParfillskip=\skip52
+\CenteringParindent=\skip53
+\RaggedLeftParindent=\skip54
+\RaggedRightParindent=\skip55
+\JustifyingParindent=\skip56
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
  (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
@@ -63,13 +82,20 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \c@tracingmulticols=\count91
@@ -88,8 +114,8 @@ Package multicol Warning: May not work with the twocolumn option on input line 1
 \page@free=\dimen115
 \premulticols=\dimen116
 \postmulticols=\dimen117
-\multicolsep=\skip43
-\multicolbaselineskip=\skip44
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
 \partial@page=\box27
 \last@line=\box28
 \maxbalancingoverflow=\dimen118
@@ -130,18 +156,20 @@ LaTeX Warning: Unused global option(s):
 (./RK14832.aux)
 \openout1 = `RK14832.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -222,142 +250,169 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 452.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) <./images/fourierT.png, id=1, 933.4875pt x 592.2125pt>
+))
+Underfull \hbox (badness 1546) in paragraph at lines 24--24
+[]\OT1/cmr/bx/n/14.4 Approach to anal-y-sis in
+ []
+
+<./images/fourierT.png, id=1, 933.4875pt x 592.2125pt>
 File: ./images/fourierT.png Graphic file (type png)
  <use ./images/fourierT.png>
-Package pdftex.def Info: ./images/fourierT.png used on input line 32.
+Package pdftex.def Info: ./images/fourierT.png used on input line 33.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 32--33
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 33--34
 [][] 
  []
 
 <./images/fourierS.png, id=3, 933.4875pt x 592.2125pt>
 File: ./images/fourierS.png Graphic file (type png)
  <use ./images/fourierS.png>
-Package pdftex.def Info: ./images/fourierS.png used on input line 37.
+Package pdftex.def Info: ./images/fourierS.png used on input line 38.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 37--38
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 38--39
 [][] 
  []
 
 <./images/fourierV.png, id=4, 933.4875pt x 592.2125pt>
 File: ./images/fourierV.png Graphic file (type png)
  <use ./images/fourierV.png>
-Package pdftex.def Info: ./images/fourierV.png used on input line 42.
+Package pdftex.def Info: ./images/fourierV.png used on input line 43.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 42--43
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 43--44
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 66.
+(Font)              <7> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 66.
+(Font)              <5> on input line 65.
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
+
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/fourierT.png> <./images/fourierS.png> <./images/fourierV.png>] <./images/decision.png, id=17, 936.49875pt x 699.61375pt>
 File: ./images/decision.png Graphic file (type png)
  <use ./images/decision.png>
-Package pdftex.def Info: ./images/decision.png used on input line 100.
+Package pdftex.def Info: ./images/decision.png used on input line 113.
 (pdftex.def)             Requested size: 234.12411pt x 174.903pt.
 
-Overfull \hbox (21.86655pt too wide) in paragraph at lines 97--101
-[]  
+Overfull \hbox (21.86655pt too wide) in paragraph at lines 113--114
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 118--124
+[]\OT1/cmr/m/n/10 The train-ing data pro-duced three re-gions
  []
 
 <./images/testpoints.png, id=18, 936.49875pt x 699.61375pt>
 File: ./images/testpoints.png Graphic file (type png)
  <use ./images/testpoints.png>
-Package pdftex.def Info: ./images/testpoints.png used on input line 119.
+Package pdftex.def Info: ./images/testpoints.png used on input line 133.
 (pdftex.def)             Requested size: 234.12411pt x 174.903pt.
 
-Overfull \hbox (21.86655pt too wide) in paragraph at lines 119--120
-[][]  
+Underfull \hbox (badness 1043) in paragraph at lines 127--134
+\OT1/cmr/m/n/10 of that par-tic-u-lar V be-ing ex-tremly curved.
  []
 
-<./images/tS11.png, id=19, 642.4pt x 401.5pt>
+
+Overfull \hbox (21.86655pt too wide) in paragraph at lines 127--134
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./images/decision.png>] <./images/tS11.png, id=25, 642.4pt x 401.5pt>
 File: ./images/tS11.png Graphic file (type png)
  <use ./images/tS11.png>
-Package pdftex.def Info: ./images/tS11.png used on input line 124.
+Package pdftex.def Info: ./images/tS11.png used on input line 141.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tS12.png, id=20, 642.4pt x 401.5pt>
+ <./images/tS12.png, id=26, 642.4pt x 401.5pt>
 File: ./images/tS12.png Graphic file (type png)
  <use ./images/tS12.png>
-Package pdftex.def Info: ./images/tS12.png used on input line 125.
+Package pdftex.def Info: ./images/tS12.png used on input line 142.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tS13.png, id=21, 642.4pt x 401.5pt>
+ <./images/tS13.png, id=27, 642.4pt x 401.5pt>
 File: ./images/tS13.png Graphic file (type png)
  <use ./images/tS13.png>
-Package pdftex.def Info: ./images/tS13.png used on input line 126.
+Package pdftex.def Info: ./images/tS13.png used on input line 143.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tv11.png, id=22, 642.4pt x 401.5pt>
+ <./images/tv11.png, id=28, 642.4pt x 401.5pt>
 File: ./images/tv11.png Graphic file (type png)
  <use ./images/tv11.png>
-Package pdftex.def Info: ./images/tv11.png used on input line 127.
+Package pdftex.def Info: ./images/tv11.png used on input line 144.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tv12.png, id=23, 642.4pt x 401.5pt>
+ <./images/tv12.png, id=29, 642.4pt x 401.5pt>
 File: ./images/tv12.png Graphic file (type png)
  <use ./images/tv12.png>
-Package pdftex.def Info: ./images/tv12.png used on input line 128.
+Package pdftex.def Info: ./images/tv12.png used on input line 145.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tv13.png, id=24, 642.4pt x 401.5pt>
+ <./images/tv13.png, id=30, 642.4pt x 401.5pt>
 File: ./images/tv13.png Graphic file (type png)
  <use ./images/tv13.png>
-Package pdftex.def Info: ./images/tv13.png used on input line 129.
+Package pdftex.def Info: ./images/tv13.png used on input line 146.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tT11.png, id=25, 642.4pt x 401.5pt>
+ <./images/tT11.png, id=31, 642.4pt x 401.5pt>
 File: ./images/tT11.png Graphic file (type png)
  <use ./images/tT11.png>
-Package pdftex.def Info: ./images/tT11.png used on input line 130.
+Package pdftex.def Info: ./images/tT11.png used on input line 147.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tT12.png, id=26, 642.4pt x 401.5pt>
-File: ./images/tT12.png Graphic file (type png)
- <use ./images/tT12.png>
-Package pdftex.def Info: ./images/tT12.png used on input line 131.
-(pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/tT13.png, id=27, 642.4pt x 401.5pt>
+ <./images/tT13.png, id=32, 642.4pt x 401.5pt>
 File: ./images/tT13.png Graphic file (type png)
  <use ./images/tT13.png>
-Package pdftex.def Info: ./images/tT13.png used on input line 132.
+Package pdftex.def Info: ./images/tT13.png used on input line 148.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
- <./images/extremechars.png, id=28, 936.49875pt x 699.61375pt>
-File: ./images/extremechars.png Graphic file (type png)
- <use ./images/extremechars.png>
-Package pdftex.def Info: ./images/extremechars.png used on input line 134.
-(pdftex.def)             Requested size: 234.12411pt x 174.903pt.
+ <./images/tT12.png, id=33, 642.4pt x 401.5pt>
+File: ./images/tT12.png Graphic file (type png)
+ <use ./images/tT12.png>
+Package pdftex.def Info: ./images/tT12.png used on input line 149.
+(pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
 
-Overfull \hbox (21.86655pt too wide) in paragraph at lines 134--135
-[][]  
+Underfull \hbox (badness 5726) in paragraph at lines 141--150
+[] [] []
  []
 
-[2 <./images/decision.png> <./images/testpoints.png> <./images/tS11.png> <./images/tS12.png> <./images/tS13.png> <./images/tv11.png> <./images/tv12.png> <./images/tv13.png> <./images/tT11.png> <./images/tT12.png> <./images/tT13.png>] [3
+<./images/extremechars.png, id=34, 936.49875pt x 699.61375pt>
+File: ./images/extremechars.png Graphic file (type png)
+ <use ./images/extremechars.png>
+Package pdftex.def Info: ./images/extremechars.png used on input line 153.
+(pdftex.def)             Requested size: 234.12411pt x 174.903pt.
 
- <./images/extremechars.png>] (./RK14832.aux) ) 
+Overfull \hbox (21.86655pt too wide) in paragraph at lines 153--154
+[][] 
+ []
+
+[3 <./images/testpoints.png> <./images/tS11.png> <./images/tS12.png> <./images/tS13.png> <./images/tv11.png> <./images/tv12.png> <./images/tv13.png> <./images/tT11.png> <./images/tT13.png> <./images/tT12.png> <./images/extremechars.png>] (./RK14832.aux) ) 
 Here is how much of TeX's memory you used:
- 2153 strings out of 493089
- 31880 string characters out of 6134842
- 101505 words of memory out of 5000000
- 5623 multiletter control sequences out of 15000+600000
- 4553 words of font info for 17 fonts, out of 8000000 for 9000
+ 2278 strings out of 493089
+ 34260 string characters out of 6134842
+ 105943 words of memory out of 5000000
+ 5735 multiletter control sequences out of 15000+600000
+ 4899 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,32p,247b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on RK14832.pdf (3 pages, 1313605 bytes).
+ 38i,7n,32p,237b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on RK14832.pdf (3 pages, 1330854 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
