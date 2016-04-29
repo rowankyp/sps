@@ -17,8 +17,9 @@ The Fourier transform is used to assess geometric characteristics of a particula
 image domain. An image's representation in the Fourier domain is a representation the number
 of basis sine and cosine functions of varying frequencies which are present in the image. Because
 the image in the Fourier domain is decomposed into into its sinusouidal components, it is easy to
-examine the frequencies of the image, and hence influencing the geometric structure in the spatial
-domain. This report explains my process of classification of text based of features of the
+examine the frequencies of the image and their geometric relation.
+
+This report explains my process of classification of text based on features of the
 image extracted from the Fourier domain.
 }
 \section{Approach to analysis in the Fourier domain}
@@ -27,7 +28,7 @@ image extracted from the Fourier domain.
 To start with, I superimposed the magnitude spectrums of the training data to produce
 three graphs which illustrate the geometric characteristics of the letters in the Fourier
 space. Over the top I have illustrated the regions of the chosen features by blue lines,
-the features are detailed in section 3
+the feature selection process is detailed in section 3
 
 \begin{figure}[h!]
   \caption{Fourier transform of T characters}
@@ -77,7 +78,7 @@ Considering the three Fourier images
 \justifying{
     The characters are classified into three seperate classes using two features, each feature is designed to positvely identify one character,
     the third character is indentified by logical deduction. The features are obtained by taking the sum of the square of the magnitude in specific
-    regions of the as shown in figures 1 to 3.
+    regions as shown in figures 1 to 3.
 
     \smallskip
 
@@ -121,12 +122,14 @@ Considering the three Fourier images
 
 
 
-    The training data produced three regions which correspond to the letters T, V and S. The clustering seems relatively good, except for
-    one of the S points. Observing fig 4 we can see that one S value is far closer to the V decision boundary than the rest. I reasoned that
-    the culprit would be an S which had more diagonal information in it than the others, the increased intensity in the $u = -v$ line in the fourier
-    space would cause it to increasingly resemble a V according to the box feautre. One by one I removed datapoints from the dataset and plotted the resulting nearest neighbour
-    classification, I found that the culprit was \textbf{S7}. The lines forming S7 were thicker than all the other test Ss, the increased thickness
-    meant that there would be more information in the $u=-v$, hence why this datapoint is further away from the cluster
+    The training data produced three regions which correspond to the letters T, V and S. The clustering seems satisfactory, except for
+    one of the S points. Observing figure 4 we can see that one S value is far closer to the V decision boundary than the rest.
+    I reasoned that the shift towards the V decision boundary must relate to a test character which had lower overall magnitude in the
+    center vertical line of its Fourier space. Further this character would have a lower magnitude in diagonal lines of its Fourier space.
+    One by one I removed datapoints from the dataset and plotted the resulting nearest neighbour classification, I found that the point to be \textbf{S7}.
+    The lines forming S7 were thicker than all the other test Ss, furthermore, it was more curved at its top and bottom.
+    As the top and bottom of the S were not as straight as the others, their respective magnitudes as computed by the vertical rectangle feature
+    was lower, hence why it is shifted towards the S/V decision boundary.
 
     \bigskip
     \justifying{
@@ -149,7 +152,7 @@ Considering the three Fourier images
     }
 
     \bigskip
-
+\begin{figure}[h!]
         \includegraphics[scale=0.1]{tS11}
         \includegraphics[scale=0.1]{tS12}
         \includegraphics[scale=0.1]{tS13}
@@ -159,6 +162,7 @@ Considering the three Fourier images
         \includegraphics[scale=0.1]{tT11}
         \includegraphics[scale=0.1]{tT13}
         \includegraphics[scale=0.1]{tT12}
+    \end{figure}
 
         \begin{figure}[h!]
           \caption{Assignment of extreme test characters}
@@ -167,7 +171,7 @@ Considering the three Fourier images
 
     \justifying{
 
-        \textit{fig 6} shows the resulting assignment of the characters seen above. Referring first to the Ss,
+        figure 6 shows the resulting assignment of the characters seen above. Referring first to the Ss,
         observing the figure we can see that the first two Ss have been classified correctly  despite the fact that both contain
         areas of exclusive horizontal change, the small amount of curvature was enough to distinguish them from Ts. The third S, however,
         has areas almost \textit{only} containing exclusive horizontal or vertical change, leading to its classification as a T
@@ -227,7 +231,7 @@ as Ss. This can be explained by examining their Fourier spaces.
 \end{figure}
 
 \justify{
-Why is a B classified as an S. Again examining the result feature by feature.
+Why is a B classified as an S? Again examining the result feature by feature.
 Considering the box feature: A lies in the region of the V cluster with respect to the box feature axis.
 This can also be explained by the diagonal lines $u = v$ and $u = -v$ in Fourier space of B as seen in figure 9. These have lower magnitude
 than the letter A, and as a result have a lower value in the box feature axis. Secondly,

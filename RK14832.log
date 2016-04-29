@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  29 APR 2016 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.5)  29 APR 2016 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -251,53 +251,53 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Underfull \hbox (badness 1546) in paragraph at lines 24--24
+Underfull \hbox (badness 1546) in paragraph at lines 25--25
 []\OT1/cmr/bx/n/14.4 Approach to anal-y-sis in
  []
 
 <./images/fourierT.png, id=1, 933.4875pt x 592.2125pt>
 File: ./images/fourierT.png Graphic file (type png)
  <use ./images/fourierT.png>
-Package pdftex.def Info: ./images/fourierT.png used on input line 34.
+Package pdftex.def Info: ./images/fourierT.png used on input line 35.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 34--35
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 35--36
 [][] 
  []
 
 <./images/fourierS.png, id=3, 933.4875pt x 592.2125pt>
 File: ./images/fourierS.png Graphic file (type png)
  <use ./images/fourierS.png>
-Package pdftex.def Info: ./images/fourierS.png used on input line 39.
+Package pdftex.def Info: ./images/fourierS.png used on input line 40.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 39--40
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 40--41
 [][] 
  []
 
 <./images/fourierV.png, id=4, 933.4875pt x 592.2125pt>
 File: ./images/fourierV.png Graphic file (type png)
  <use ./images/fourierV.png>
-Package pdftex.def Info: ./images/fourierV.png used on input line 44.
+Package pdftex.def Info: ./images/fourierV.png used on input line 45.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 44--45
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 45--46
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 65.
+(Font)              <7> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 65.
+(Font)              <5> on input line 66.
 
 Underfull \vbox (badness 1253) has occurred while \output is active []
 
@@ -306,10 +306,10 @@ Underfull \vbox (badness 1253) has occurred while \output is active []
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/fourierT.png> <./images/fourierS.png> <./images/fourierV.png>] <./images/decision.png, id=17, 951.555pt x 714.67pt>
 File: ./images/decision.png Graphic file (type png)
  <use ./images/decision.png>
-Package pdftex.def Info: ./images/decision.png used on input line 119.
+Package pdftex.def Info: ./images/decision.png used on input line 120.
 (pdftex.def)             Requested size: 237.88817pt x 178.66705pt.
 
-Overfull \hbox (25.6306pt too wide) in paragraph at lines 119--120
+Overfull \hbox (25.6306pt too wide) in paragraph at lines 120--121
 [][] 
  []
 
@@ -317,17 +317,17 @@ Overfull \hbox (25.6306pt too wide) in paragraph at lines 119--120
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 124--130
+Underfull \hbox (badness 1655) in paragraph at lines 125--133
 []\OT1/cmr/m/n/10 The train-ing data pro-duced three re-gions
  []
 
 <./images/testpoints.png, id=18, 951.555pt x 714.67pt>
 File: ./images/testpoints.png Graphic file (type png)
  <use ./images/testpoints.png>
-Package pdftex.def Info: ./images/testpoints.png used on input line 140.
+Package pdftex.def Info: ./images/testpoints.png used on input line 143.
 (pdftex.def)             Requested size: 237.88817pt x 178.66705pt.
 
-Overfull \hbox (25.6306pt too wide) in paragraph at lines 140--141
+Overfull \hbox (25.6306pt too wide) in paragraph at lines 143--144
 [][] 
  []
 
@@ -337,96 +337,101 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <./images/tS11.png, id=19, 642.4pt x 401.5pt>
 File: ./images/tS11.png Graphic file (type png)
  <use ./images/tS11.png>
-Package pdftex.def Info: ./images/tS11.png used on input line 153.
+Package pdftex.def Info: ./images/tS11.png used on input line 156.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tS12.png, id=20, 642.4pt x 401.5pt>
 File: ./images/tS12.png Graphic file (type png)
  <use ./images/tS12.png>
-Package pdftex.def Info: ./images/tS12.png used on input line 154.
+Package pdftex.def Info: ./images/tS12.png used on input line 157.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tS13.png, id=21, 642.4pt x 401.5pt>
 File: ./images/tS13.png Graphic file (type png)
  <use ./images/tS13.png>
-Package pdftex.def Info: ./images/tS13.png used on input line 155.
+Package pdftex.def Info: ./images/tS13.png used on input line 158.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tv11.png, id=22, 642.4pt x 401.5pt>
 File: ./images/tv11.png Graphic file (type png)
  <use ./images/tv11.png>
-Package pdftex.def Info: ./images/tv11.png used on input line 156.
+Package pdftex.def Info: ./images/tv11.png used on input line 159.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tv12.png, id=23, 642.4pt x 401.5pt>
 File: ./images/tv12.png Graphic file (type png)
  <use ./images/tv12.png>
-Package pdftex.def Info: ./images/tv12.png used on input line 157.
+Package pdftex.def Info: ./images/tv12.png used on input line 160.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tv13.png, id=24, 642.4pt x 401.5pt>
 File: ./images/tv13.png Graphic file (type png)
  <use ./images/tv13.png>
-Package pdftex.def Info: ./images/tv13.png used on input line 158.
+Package pdftex.def Info: ./images/tv13.png used on input line 161.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tT11.png, id=25, 642.4pt x 401.5pt>
 File: ./images/tT11.png Graphic file (type png)
  <use ./images/tT11.png>
-Package pdftex.def Info: ./images/tT11.png used on input line 159.
+Package pdftex.def Info: ./images/tT11.png used on input line 162.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tT13.png, id=26, 642.4pt x 401.5pt>
 File: ./images/tT13.png Graphic file (type png)
  <use ./images/tT13.png>
-Package pdftex.def Info: ./images/tT13.png used on input line 160.
+Package pdftex.def Info: ./images/tT13.png used on input line 163.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
  <./images/tT12.png, id=27, 642.4pt x 401.5pt>
 File: ./images/tT12.png Graphic file (type png)
  <use ./images/tT12.png>
-Package pdftex.def Info: ./images/tT12.png used on input line 161.
+Package pdftex.def Info: ./images/tT12.png used on input line 164.
 (pdftex.def)             Requested size: 64.24376pt x 40.15234pt.
 
-Underfull \hbox (badness 5726) in paragraph at lines 153--162
+Underfull \hbox (badness 5726) in paragraph at lines 156--165
+[][] [] []
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 156--165
 [] [] []
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <./images/extremechars.png, id=28, 951.555pt x 714.67pt>
 File: ./images/extremechars.png Graphic file (type png)
  <use ./images/extremechars.png>
-Package pdftex.def Info: ./images/extremechars.png used on input line 165.
+Package pdftex.def Info: ./images/extremechars.png used on input line 169.
 (pdftex.def)             Requested size: 237.88817pt x 178.66705pt.
 
-Overfull \hbox (25.6306pt too wide) in paragraph at lines 165--166
+Overfull \hbox (25.6306pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./images/decision.png> <./images/tS11.png> <./images/tS12.png> <./images/tS13.png> <./images/tv11.png> <./images/tv12.png> <./images/tv13.png> <./images/tT11.png> <./images/tT13.png> <./images/tT12.png>] <./images/AB.png, id=34, 951.555pt x 714.67pt>
+[2 <./images/decision.png>] <./images/AB.png, id=34, 951.555pt x 714.67pt>
 File: ./images/AB.png Graphic file (type png)
  <use ./images/AB.png>
-Package pdftex.def Info: ./images/AB.png used on input line 209.
+Package pdftex.def Info: ./images/AB.png used on input line 213.
 (pdftex.def)             Requested size: 237.88817pt x 178.66705pt.
 
-Overfull \hbox (25.6306pt too wide) in paragraph at lines 209--210
+Overfull \hbox (25.6306pt too wide) in paragraph at lines 213--214
 [][] 
  []
 
 <./images/A.png, id=35, 933.4875pt x 592.2125pt>
 File: ./images/A.png Graphic file (type png)
  <use ./images/A.png>
-Package pdftex.def Info: ./images/A.png used on input line 226.
+Package pdftex.def Info: ./images/A.png used on input line 230.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 226--227
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 230--231
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 <./images/testpoints.png> <./images/extremechars.png> <./images/AB.png>] <./images/B.png, id=43, 933.4875pt x 592.2125pt>
+[3 <./images/testpoints.png> <./images/tS11.png> <./images/tS12.png> <./images/tS13.png> <./images/tv11.png> <./images/tv12.png> <./images/tv13.png> <./images/tT11.png> <./images/tT13.png> <./images/tT12.png> <./images/extremechars.png> <./images/AB.png>] <./images/B.png, id=43, 933.4875pt x 592.2125pt>
 File: ./images/B.png Graphic file (type png)
  <use ./images/B.png>
-Package pdftex.def Info: ./images/B.png used on input line 245.
+Package pdftex.def Info: ./images/B.png used on input line 249.
 (pdftex.def)             Requested size: 233.3713pt x 148.05275pt.
 
-Overfull \hbox (21.11374pt too wide) in paragraph at lines 245--246
+Overfull \hbox (21.11374pt too wide) in paragraph at lines 249--250
 [][] 
  []
 
@@ -436,13 +441,13 @@ Overfull \hbox (21.11374pt too wide) in paragraph at lines 245--246
 Here is how much of TeX's memory you used:
  2293 strings out of 493089
  34505 string characters out of 6134842
- 105943 words of memory out of 5000000
+ 106943 words of memory out of 5000000
  5747 multiletter control sequences out of 15000+600000
  4899 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,32p,237b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,32p,237b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on RK14832.pdf (4 pages, 2067880 bytes).
+Output written on RK14832.pdf (4 pages, 2066718 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
